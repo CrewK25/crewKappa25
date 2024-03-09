@@ -11,8 +11,14 @@
             margin: 0;
             padding: 0;
             display: flex;
-            min-height: 100vh;
             flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
         }
         .container {
             max-width: 800px;
@@ -22,6 +28,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             flex: 1;
+            margin-top: 20px;
         }
         h1 {
             color: #007bff;
@@ -45,9 +52,32 @@
             color: #fff;
             border-radius: 0 0 10px 10px;
         }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .category {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .category:hover {
+            color: #0056b3;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav class="categories">
+            <div class="category">Ασφαλής χρήση</div>
+            <div class="category">Η φιλοσοφία μας</div>
+            <div class="category">Η ιστορία μας</div>
+            <div class="category">Συμβουλές και φαρμακολογεία</div>
+        </nav>
+    </header>
     <div class="container">
         <h1>Ποιοι είμαστε</h1>
         <p>Είμαστε μια ομάδα ανθρώπων που βοηθάμε τους εθισμένους σε ναρκωτικά με πολλούς διαφορετικούς τρόπους. Ο στόχος μας είναι να ευαισθητοποιήσουμε και να εξηγήσουμε στους ανθρώπους ότι οι εθισμένοι σε ναρκωτικά είναι επίσης ανθρώποι με δικαιώματα, αξίες και αξιοπρέπεια.</p>
