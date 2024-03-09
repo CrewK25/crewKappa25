@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Η Ομάδα Μας</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #f0f0f0; /* Light gray */
-            color: #333; /* Dark gray */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -16,12 +15,32 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #0066cc; /* Blue */
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
         }
         p {
-            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        .quote {
+            font-style: italic;
+            color: #6c757d;
+            text-align: center;
+            margin-top: 30px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 0 0 10px 10px;
         }
     </style>
 </head>
@@ -29,6 +48,11 @@
     <div class="container">
         <h1>Ποιοι είμαστε</h1>
         <p>Είμαστε μια ομάδα ανθρώπων που βοηθάμε τους εθισμένους σε ναρκωτικά με πολλούς διαφορετικούς τρόπους. Ο στόχος μας είναι να ευαισθητοποιήσουμε και να εξηγήσουμε στους ανθρώπους ότι οι εθισμένοι σε ναρκωτικά είναι επίσης ανθρώποι με δικαιώματα, αξίες και αξιοπρέπεια.</p>
+        <p class="quote">"Η ελπίδα είναι το πρώτο βήμα προς την ανάρρωση." - Άγνωστος</p>
     </div>
+    <footer>
+        Η Ομάδα Μας &copy; 2023
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
